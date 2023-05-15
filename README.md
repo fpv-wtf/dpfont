@@ -12,21 +12,21 @@ A dpfont package shall be a folder of **.png** images of font pages for various 
     "version": "1.0.0",
     "author": "Your Name <email@example.com>",
     "license": "ISC",
-    "homepage": "https://github.com/aesomeuser/awesomefont",
+    "homepage": "https://github.com/awesomeuser/awesomefont",
     "supports": [
         {
             "identifier": "BTFL",
             "min_version": "4.4",
             "files": {
-                "24x36": ["bf_hd_1.png", "bf_hd_2.png"],
-                "36x54": ["bf_sd_1.png", "bf_sd_2.png"]
+                "24x36": ["bf44_hd_1.png", "bf44_hd_2.png"],
+                "36x54": ["bf44_sd_1.png", "bf44_sd_2.png"]
             }
         },
         {
             "identifier": "BTFL",
             "min_version": "4.0",
             "files": {
-                "36x54": ["bfold_sd_1.png", "bfold_sd_2.png"]
+                "36x54": ["bf40_sd.png"]
             }
         }
     ]
