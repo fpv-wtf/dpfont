@@ -30,6 +30,12 @@ A dpfont package shall be a folder of **.png** images of font pages for various 
 }
 ```
 
+### Todo
+
+ - Mandatory PNG sizes? Master PNG size for local scaling? Otherwise still not universally portable.
+ - Does it make sense to consider svgs up front?
+ - max_version?
+
 ### User friendly distribution
 
 For the purpose of manual installation, dpfont folders should be distributed and installable as a ZIP file with the extension **.dpfont** with all files present in the root of the ZIP archive.
