@@ -16,10 +16,17 @@ A dpfont package shall be a folder of **.png** images of font pages for various 
     "supports": [
         {
             "identifier": "BTFL",
-            "min_version": "1.45",
+            "min_version": "4.4",
             "files": {
-                "24x36": ["derp_hd_1.png", "derp_hd_2.png"],
-                "36x54": ["derp_sd_1.png", "derp_sd_2.png"]
+                "24x36": ["bf_hd_1.png", "bf_hd_2.png"],
+                "36x54": ["bf_sd_1.png", "bf_sd_2.png"]
+            }
+        },
+        {
+            "identifier": "BTFL",
+            "min_version": "4.0",
+            "files": {
+                "36x54": ["bfold_sd_1.png", "bfold_sd_2.png"]
             }
         }
     ]
