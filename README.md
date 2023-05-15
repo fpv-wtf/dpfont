@@ -35,6 +35,7 @@ A dpfont package shall be a folder of **.png** images of font pages for various 
 
 Todo:
  - max_version?
+ - rename to .osdfont?
 
 ### User friendly distribution
 
