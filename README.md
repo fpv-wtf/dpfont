@@ -6,7 +6,7 @@ The following is a proposal for a specification for MSP Displayport fonts.
 
 A dpfont package shall be a folder of **.png** images of font pages for various flight-controller glyph maps with the following accompanying *dpfont.json* metadata file:
 
-```
+```json
 {
     "name": "My Cool Font",
     "version": "1.0.0",
