@@ -25,6 +25,7 @@ A dpfont package shall be a folder of **.png** images of font pages for various 
         {
             "identifier": "BTFL",
             "min_version": "4.0",
+            "max_version": "4.3", //optional
             "files": {
                 "36x54": ["bf40_sd.png"]
             }
@@ -33,9 +34,17 @@ A dpfont package shall be a folder of **.png** images of font pages for various 
 }
 ```
 
-Todo:
- - max_version?
+## Todo:
  - rename to .osdfont?
+ - kill the ZIP packaging? unnecessary complexity?
+
+## On min_version and max_version
+
+An implementation should always pick the font with the biggest valid `min_version` for a given FC identifier and version if multiple versions are available.
+
+`max_version` is optional and can be used to restrict a font from being used with newer incompatible versions when a newer compatible version isn't available (as the prior `min_version` rule would take precedence regardless of max_version if a newer version is available).
+
+Both `min_version` and `max_version` can be a partial semver string in order to allow for matching against minor patch releases that are released after the font update. This means for example that a `max_version` of "4.4.0" should not match against an FC version of "4.4.1", however a `max_version` of "4.4" should match against "4.4.1".
 
 ### User friendly distribution
 
