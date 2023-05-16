@@ -37,6 +37,7 @@ A dpfont package shall be a folder of **.png** images of font pages for various 
 ## Todo:
  - rename to .osdfont?
  - kill the ZIP packaging? unnecessary complexity?
+ - elaborate on .png dimensions, glyph indexing and pages
 
 ## On min_version and max_version
 
