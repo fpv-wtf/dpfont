@@ -40,7 +40,7 @@ A dpfont package shall be a folder of **.png** images of font pages for various 
             "identifier": "BTFL",
             "min_version": "4.0",
             "max_version": "4.3", //optional
-            "files": {
+            "png": {
                 "36x54": ["bf40_sd.png"]
             }
         }
