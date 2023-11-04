@@ -28,14 +28,6 @@ A dpfont package shall be a folder of **.png** images of font pages for various 
         },
         {
             "identifier": "BTFL",
-            "min_version": "4.4",
-            "png": {
-                "24x36": ["bf44_hd_1.png", "bf44_hd_2.png"],
-                "36x54": ["bf44_sd_1.png", "bf44_sd_2.png"]
-            }
-        },
-        {
-            "identifier": "BTFL",
             "min_version": "4.0",
             "max_version": "4.3", //optional
             "png": {
